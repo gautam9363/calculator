@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  background-color: rgb(136, 136, 136);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  /* height: 70vh; */
+  width: 50vh;
+  border-radius: 2vh;
+  padding: 1vh;
+  box-shadow: -10px -10px 40px rgb(141, 141, 141);
+  background-color: rgb(94, 94, 94);
+  
+}
+.display {
+  height: 15vh;
+  width: 100%;
+  background-color: black;
+  border-radius: 2vh;
+  margin-bottom: 1vh;
+  color: rgb(232, 236, 240);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 1vh;
+  font-size: 5vh;
+  font-weight: 500;
+  overflow: hidden;
+}
+
+.arithmaticBtn,
+.numBtn {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1vh;
+  gap: 1vh;
+}
+.arithmaticBtn button,
+.numBtn button {
+  width: 11.2vh;
+  height: 9.5vh;
+  font-size: 20px;
+  border-radius: 2vh;
+  border: none;
+  cursor: pointer;
+
+}
+.arithmaticBtn > button{
+    color: rgb(108, 129, 247);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    background-color: rgb(136, 136, 136);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main {
+    width: 50vh;
+    border-radius: 2vh;
+    padding: 1vh;
+    box-shadow: -10px -10px 40px rgb(141, 141, 141);
+    background-color: rgb(94, 94, 94);
+    /* Add max-width to make it responsive */
+    max-width: 90%;
+  }
+  
+  .display {
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    border-radius: 2vh;
+    margin-bottom: 1vh;
+    color: rgb(232, 236, 240);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1vh;
+    font-size: 5vh;
+    font-weight: 500;
+    overflow: hidden;
+  }
+  
+  .arithmaticBtn,
+  .numBtn {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1vh;
+    gap: 1vh;
+  }
+  
+  .arithmaticBtn button,
+  .numBtn button {
+    width: 11.2vh;
+    height: 9.5vh;
+    font-size: 20px;
+    border-radius: 2vh;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .arithmaticBtn > button {
+    color: rgb(108, 129, 247);
+  }
+  
+  /* Add media queries to adjust layout for different screen sizes */
+  @media (max-width: 1200px) {
+    .main {
+      width: 70vh;
+    }
+    .arithmaticBtn button,
+    .numBtn button {
+      width: 9vh;
+      height: 7vh;
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .main {
+      width: 80vh;
+    }
+    .arithmaticBtn button,
+    .numBtn button {
+      width: 8vh;
+      height: 6vh;
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .main {
+      width: 90vh;
+    }
+    .arithmaticBtn button,
+    .numBtn button {
+      width: 7vh;
+      height: 5vh;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main {
+      width: 100vh;
+    }
+    .arithmaticBtn button,
+    .numBtn button {
+      width: 6vh;
+      height: 4vh;
+      font-size: 12px;
+    }
+  }
